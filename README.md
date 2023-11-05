@@ -1,4 +1,13 @@
-# Getting Started
+# Description
+
+This is a simple demo to show how to make sure that the LoginUrlAuthenticationEntryPoint's port mapper is overridden to map ports:
+
+- `80` to `80`
+- `8080` to `8080`
+
+when redirecting to `https`. This basically addresses the annoying issue:
+
+[OAuth2 client: default redirection to login page is done on wrong socket when SSL is enabled (authorization-server instead of client)](https://github.com/spring-projects/spring-security/issues/12307)
 
 ### Reference Documentation
 For further reference, please consider the following sections:
